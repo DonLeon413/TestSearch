@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataSource</name>
+    </assembly>
+    <members>
+        <member name="T:DataSource.AddResultModel`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:DataSource.AddResultModel`1.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DataSource.AddResultModel`1.#ctor(`0)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:DataSource.IDataSource`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DataSource.IDataSource`1.AddObject(System.String)">
+            <summary>
+            Add new object to Storage
+            </summary>
+            <param name="jsonObject"></param>
+        </member>
+        <member name="M:DataSource.IDataSource`1.FindObjects(System.String)">
+            <summary>
+            Find objects
+            </summary>
+            <param name="jsonObject"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DataSource.SearchResultModel`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TypeID"></typeparam>
+        </member>
+        <member name="P:DataSource.SearchResultModel`1.IDs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DataSource.SearchResultModel`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            
+            </summary>
+            <param name="ids"></param>
+        </member>
+    </members>
+</doc>

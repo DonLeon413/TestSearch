@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SearchTest</name>
+    </assembly>
+    <members>
+        <member name="T:SearchTest.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SearchTest.Controllers.HomeController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SearchTest.Controllers.ValuesController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SearchTest.Controllers.ValuesController.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="iConfiguration"></param>
+        </member>
+        <member name="M:SearchTest.Controllers.ValuesController.Search(System.Object)">
+            <summary>
+            GET: api/ValuesController
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SearchTest.Controllers.ValuesController.Add(System.Object)">
+            <summary>
+            POST api/ValuesController
+            </summary>
+            <param name="dynObj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SearchTest.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SearchTest.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:SearchTest.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SearchTest.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SearchTest.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:SearchTest.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SearchTest.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+             This method gets called by the runtime. Use this method to add
+             services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:SearchTest.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to 
+            configure the HTTP request pipeline. 
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:SearchTest.Utils.DataSourceCreator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SearchTest.Utils.DataSourceCreator.Create(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SearchTest.Utils.JsonElementEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SearchTest.Utils.JsonElementEX.IsJsonElemen(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="_this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SearchTest.WeatherForecast">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SearchTest.WeatherForecast.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SearchTest.WeatherForecast.TemperatureC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SearchTest.WeatherForecast.TemperatureF">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SearchTest.WeatherForecast.Summary">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,2 @@
+C:\Dev\Test\SearchTest\SearchVUEApp\obj\Debug\SearchVUEApp.njsproj.CoreCompileInputs.cache
+C:\Dev\Test\SearchTest\SearchVUEApp\bin\Microsoft.NodejsTools.WebRole.dll

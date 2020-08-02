@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MongoDBDataSource</name>
+    </assembly>
+    <members>
+        <member name="T:MongoDBDataSource.MongoDBSource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MongoDBDataSource.MongoDBSource.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MongoDBDataSource.MongoDBSource.Create(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="connectionString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MongoDBDataSource.MongoDBSource.Initialize(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="connectionString"></param>
+        </member>
+        <member name="M:MongoDBDataSource.MongoDBSource.AddObject(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="jsonObject"></param>
+        </member>
+        <member name="M:MongoDBDataSource.MongoDBSource.FindObjects(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="jsonObject"></param>
+            <returns></returns>
+        </member>
+        <member name="F:MongoDBDataSource.MongoDBSource._Disposed">
+            <summary>
+            Flag: Has Dispose already been called? 
+            </summary>
+        </member>
+        <member name="M:MongoDBDataSource.MongoDBSource.Dispose">
+            <summary>
+            implementation of Dispose pattern callable by consumers.
+            </summary>
+        </member>
+        <member name="M:MongoDBDataSource.MongoDBSource.Dispose(System.Boolean)">
+            <summary>
+            Protected implementation of Dispose pattern. 
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:MongoDBDataSource.MongoDBSource.CreateFilterByObject(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="jsonObject"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
